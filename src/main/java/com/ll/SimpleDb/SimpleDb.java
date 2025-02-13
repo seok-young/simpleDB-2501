@@ -15,7 +15,9 @@ public class SimpleDb {
 
 
     public Sql genSql() {
-        return null;
+        Sql sql = new Sql();
+
+        return sql;
     }
 
 
